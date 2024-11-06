@@ -1,0 +1,144 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(81, 170, 205);
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .head{
+    font-size: 40px;
+    margin-right: 20px;
+ font-family: italic;
+ 
+  }
+  
+  .navbar .leftSide {
+
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  
+  }
+  .navbar .mode {
+
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+   
+  }
+  .navbar .leftSide img {
+    width: 100px;
+    margin-left: 10px;
+    height: 100px;
+    margin-top: 0px;
+  }
+  
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color: rgb(17, 14, 14);
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 50px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  .navbar{
+    height: 150px;
+  }
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 30px;
+    }
+  }
+  li {
+    display: inline;
+  }
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .container{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(249, 249, 232);
+    transition:0.5s;
+    }
+    .container.dark{
+      background: black;
+    }
+    
+    
+  }

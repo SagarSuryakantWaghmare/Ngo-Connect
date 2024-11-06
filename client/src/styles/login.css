@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.back{
+    height:auto;
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fotor.com%2Fimages%2Fwhite-background%2F&psig=AOvVaw1ggEHnV4ClW-Jo0ggYSFnG&ust=1728539998325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDf-bHPgIkDFQAAAAAdAAAAABAE) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size:cover;
+}
+.wrappers{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    background: rgb(249, 249, 232);
+    color: #0d0c0c;
+    border-radius: 40px;
+    padding: 30px 40px;
+    
+    align-items: center;
+    display: flex;
+    width: 420px;
+    height: 450px;
+    margin-left: 34%;
+
+}
+.wrappers .form-box{
+    width: 100%;
+    padding: 40px;
+    /* width: 420px;
+    height: 450px; */
+}
+.wrappers .form-box.register{
+    position: absolute;
+    /* translate: 400px;
+    margin-top: 40px;
+    width: 420px;
+    height: 450px; */
+    
+}
+.wrappers .form-box.login{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    margin-top: 10px;
+    /* margin-bottom: 200px; */
+    /* translate: 400px;
+    margin-top: 40px;
+    width: 420px;
+    height: 450px; */
+    
+}
+.form-box{
+    margin-right: 10px;
+    /* width: 420px;
+    height: 450px; */
+}
+
+form h1 {
+    font-size: 36px;
+    text-align: center;
+   
+
+}
+form .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(43, 39, 39, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #0a0808;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box  input::placeholder {
+    color: #0c0b0b;
+    }
+
+.input-box .icon {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        transform: translateY(-50%);
+        font-size: 16px;
+    }
+form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #100707;
+    margin-right: 4px;
+}
+.remember-forgot a {
+    color: #0a0909;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+form button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+ .register-link{
+    font-size: 14px;
+    text-align: center;
+    float: center;
+    margin-top: 25px;
+    
+}
+form .register-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0a0a0a;
+}
+.register-link p a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+.register-link p a:hover{
+    text-decoration: underline; 
+}

@@ -1,0 +1,168 @@
+.home{
+    background-color: rgb(249, 249, 232);
+      /* width: 3000px; */
+    /* height: 40000px; */
+
+}.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .cards{
+     display: 'flex';
+     justify-content: 'space-around' ;
+  }
+  /* .card1{
+ margin-left: 30px;
+ margin-top: 80px;
+    width: 40px;
+    height: 60px;
+  } */
+  .first{
+    height: 400px;
+    width: 400px;
+  }
+  .headerContainer,img {
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    height: 90vh;
+   
+    border-radius: 20%;
+  }
+  .all{
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    height: 90vh;
+  }
+ 
+  .end{
+    margin-top: 30px;
+  align-items: center;
+  font-family: italic;
+  font-size: 50px;
+  color: #141719;
+margin-left: 400px;
+  }
+  .headerContainer h1 {
+    justify-content: right;
+    align-content:center;
+    font-size: 50px;
+    height: 60px;
+    font-weight: 50;
+    color: rgb(9, 7, 7);
+    margin-top: 20px;
+  }
+  .text{
+    text-align: center;
+    margin-top: 60px;
+    font-style: italic;
+  }
+  .text2 {
+    animation: blink-animation 5s infinite;
+  font-style: italic;
+  margin-right:50px;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .blink {
+    animation: blink-animation 5s infinite;
+  font-style: italic;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .headerContainer p {
+    padding: 0;
+    font-size: 38px;
+    font-weight: lighter;
+    color: rgb(14, 9, 9);
+    margin-left: 110%;
+    margin-top: -62%;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+
+  .text2 h1 {
+    padding: 0;
+    font-size: 35px;
+    font-weight: lighter;
+    color: rgb(14, 9, 9);
+    margin-left: 65%;
+    margin-top: -30%;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    justify-content:end;
+  }
+  .mission-section img{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+  }
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #141719;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+    
+  
+  }

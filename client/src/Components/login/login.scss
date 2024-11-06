@@ -1,0 +1,103 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(data:image/jpeg;base64,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) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background: slateblue;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(43, 39, 39, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffff;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box  input::placeholder {
+    color: #ffff;
+    }
+
+.input-box .icon {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        transform: translateY(-50%);
+        font-size: 16px;
+    }
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px ;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}

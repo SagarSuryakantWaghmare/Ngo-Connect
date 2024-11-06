@@ -1,0 +1,66 @@
+.contact-us-container {
+    max-width: 800px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: rgb(187, 187, 22);
+   
+  }
+  .show{
+    background-color: rgb(241,230,228);
+   
+  }
+  h2 {
+    font-size: 28px;
+    color: #2c3e50;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input, .contact-form select, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
